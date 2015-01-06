@@ -15,9 +15,7 @@ public abstract class ParseJSONFromUrl<Params, Progress, Result> extends AsyncTa
 
     public ParseJSONFromUrl<Params, Progress, Result> setContext(Context c){
         this.context = c;
-        Log.d("nihar testing","git testing");
         return this;
-
     }
 
     @Override
