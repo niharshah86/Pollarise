@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_vertical"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:id="@+id/login_userid"
+        android:hint="Email Address"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/login_userid"
+        android:layout_marginTop="15dp"
+        android:hint="Password"
+        android:gravity="center"
+        android:id="@+id/login_password"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_forgot_password"
+        android:layout_below="@id/login_password"
+        android:text="Forgot your password?"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="125dp"
+        android:textColor="@color/accent_material_dark"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_signin"
+        android:text="Sign in"
+        android:layout_below="@id/login_forgot_password"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="25dp"/>
+</RelativeLayout>
