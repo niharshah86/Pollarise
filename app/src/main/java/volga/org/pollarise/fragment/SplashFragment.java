@@ -19,7 +19,7 @@ public class SplashFragment extends CoreActivity {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        mView = inflater.inflate(R.layout.fragment_splash, container, false);
+        mView = inflater.inflate(R.layout.fragment_signup, container, false);
         return mView;
     }
 }
